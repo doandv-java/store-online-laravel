@@ -17,7 +17,7 @@ class AddressFactory extends Factory
     {
         return [
             'label' => Arr::random(['Home', 'Office', 'Head Office', 'Mums House']),
-            'billing' => $this->faker->boolean,
+            'billing' => $this->faker->boolean(),
             'user_id' => User::factory()->create(),
             'location_id' => Location::factory()->create()
         ];
