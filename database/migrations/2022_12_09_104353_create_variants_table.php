@@ -17,10 +17,10 @@ return new class extends Migration
             $table->string('name');
             $table->unsignedInteger('cost')->default(0);
             $table->unsignedInteger('retail')->default(0);
-            $table->unsignedInteger('height')->default(0);
-            $table->unsignedInteger('width')->default(0);
-            $table->unsignedInteger('length')->default(0);
-            $table->unsignedInteger('weight')->default(0);
+            $table->unsignedInteger('height')->nullable();
+            $table->unsignedInteger('width')->nullable();
+            $table->unsignedInteger('length')->nullable();
+            $table->unsignedInteger('weight')->nullable();
 
             $table->boolean('active')->default(true);
             $table->boolean('shippable')->default(false);
