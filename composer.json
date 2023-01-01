@@ -9,7 +9,7 @@
         "guzzlehttp/guzzle": "^7.2",
         "juststeveking/http-status-code": "2.0.0",
         "juststeveking/laravel-key-factory": "^1.1",
-        "juststeveking/laravel-postcodes": "^2.0",
+        "juststeveking/laravel-postcodes": "2.0.0",
         "juststeveking/laravel-transporter": "^1.2",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
