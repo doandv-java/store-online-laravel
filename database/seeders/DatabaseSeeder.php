@@ -6,6 +6,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Domains\Catalog\Models\Variant;
 use Domains\Customer\Models\Address;
+use Domains\Customer\Models\Cart;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -15,6 +16,7 @@ class DatabaseSeeder extends Seeder
     {
         Address::factory()->create();
         Variant::factory(50)->create();
+        Cart::factory(10)->create();
 
 
     }
